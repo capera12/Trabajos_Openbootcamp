@@ -1,0 +1,21 @@
+.button {
+    color: brown;
+    background-color: antiquewhite;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 10px;
+    border: 0;
+}
+
+/*pseudo clase*/
+.button:hover {
+    color: white;
+    background-color: green;
+}
+
+
+
+    
+
+
+
