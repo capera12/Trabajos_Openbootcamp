@@ -1,0 +1,42 @@
+// EJERCICIOS 01
+
+Console.WriteLine("Escribe tu nombre");
+string nombre = Console.ReadLine(); 
+Console.WriteLine("Escribe tus apellidos");
+String apellidos = Console.ReadLine();
+Console.WriteLine("Cuantos años tienes?");
+string edad = Console.ReadLine();
+
+Console.WriteLine(nombre + " " + apellidos + " tienes " + edad + " años y sabes programar");
+
+// EJERCICIOS 02
+
+Console.WriteLine("Describiendo  un coche");
+Console.WriteLine("Cuantas puertas tiene un coche");
+string puertas = Console.ReadLine();
+int puertas2 = Convert.ToInt32(puertas);
+Console.WriteLine(puertas2);
+Console.WriteLine("Cuantas ruedas tiene un coche");
+string ruedas = Console.ReadLine();
+int ruedas2 = Convert.ToInt32(ruedas);
+Console.WriteLine("Que marca es el coche?");
+string marca = Console.ReadLine();
+Console.WriteLine("cual es la fecha de itv?");
+string fecha = Console.ReadLine();
+
+Console.WriteLine("Describiendo  una mesa");
+Console.WriteLine("cual es color de la mesa?");
+String color = Console.ReadLine();
+Console.WriteLine("Cual es largo de la mesa");
+string largo = Console.ReadLine();
+Console.WriteLine("De que material esta hecha la mesa");
+string material = Console.ReadLine();
+
+// EJERCICIOS 03
+
+Console.WriteLine("ingrese un número para comprobar si es >= 18");
+string numero = Console.ReadLine();
+int numero2 = Convert.ToInt32(numero);
+Console.WriteLine(numero2 + "es >= " + (numero2 >= 18));
+Console.WriteLine(23 == 23 && 3 < 5);
+Console.WriteLine( 23 > 4 || 4 == 2);
