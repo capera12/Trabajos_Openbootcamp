@@ -1,0 +1,24 @@
+
+Cliente DatosCliente = new Cliente("juan", "35337", "calle 54", "julian@hmail", "nuevo");
+Console.WriteLine(DatosCliente.nombre);
+
+public struct Cliente
+{
+    public Cliente(string nombre, string celular, string direccion, string email, string estado)
+    {
+        Nombre = nombre;
+        Celular = celular;
+        Direccion = direccion;
+        Email = email;
+        Estado = estado;
+
+        
+    }
+
+    public string nombre { get; }
+    public string celular { get; }
+    public string direccion { get; }
+    public string email { get; }
+    public string estado { get; }
+
+    public override string ToString() => $"({nombre},{celular}, {direccion}, {email}, {estado})";
